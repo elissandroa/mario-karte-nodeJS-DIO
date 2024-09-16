@@ -41,3 +41,16 @@ const player6 = {
     PODER: 5,
     PONTOS: 0,
 };
+
+async function rollDice() {
+    return Math.floor(Math.random() * 6) + 1;
+}
+
+(
+async function main() {
+    console.log('Hello World!')
+}
+)()
+
+
+
