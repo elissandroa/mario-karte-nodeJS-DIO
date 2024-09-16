@@ -48,7 +48,7 @@ async function rollDice() {
 
 (
 async function main() {
-    console.log('Hello World!')
+    console.log(`🏁🚨 Corrida entre ${player1.NOME} e ${player4.NOME} começando... '\n`)
 }
 )()
 
