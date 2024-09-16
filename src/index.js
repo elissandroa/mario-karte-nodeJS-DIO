@@ -46,11 +46,18 @@ async function rollDice() {
     return Math.floor(Math.random() * 6) + 1;
 }
 
-(
-async function main() {
-    console.log(`🏁🚨 Corrida entre ${player1.NOME} e ${player4.NOME} começando... '\n`)
+async function playRaceEngine(character1, character2) {
+
 }
-)()
+
+(
+    async function main() {
+        console.log(`🏁🚨 Corrida entre ${player1.NOME} e ${player4.NOME} começando... '\n`);
+
+
+        await playRaceEngine(player1, player4);
+
+    })()
 
 
 
