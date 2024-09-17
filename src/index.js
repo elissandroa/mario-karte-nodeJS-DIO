@@ -72,6 +72,14 @@ async function playRaceEngine(character1, character2) {
         let block = await getRamdomBlock();
         console.log(`Bloco: ${block}`)
     }
+
+    //Rolar os Dadosk
+    let diceResult1 = await rollDice();
+    let diceResult2 = await rollDice();
+
+    /* Teste de Habilidade */
+    let totalTestSkill1 = 0;
+    let totalTestSkill2 = 0;
 }
 
 (
